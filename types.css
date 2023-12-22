@@ -1,0 +1,112 @@
+/* table-styles.css */
+
+body.types {
+    background-image: url('Coffee_Grain_545482_1920x1080\ -\ Copy.jpg'); /* Replace 'coffee-background.jpg' with the path to your coffee-related background image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* Set the height to fill the entire viewport */
+    /* margin: 0;
+    padding: 0; */
+    
+    overflow-x: hidden
+}
+
+header {
+    position: relative;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.logo {
+    position: absolute;
+    top: 100px;
+    left: 10px;
+}
+.logo a {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit; /* Inherit text color from parent */
+}
+
+.logo img {
+    width: 222px;
+    height: 119px;
+    /* top: 20px; */
+    /* margin: -8px; */
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+section {
+    /* padding: 20px; */
+    /* color: white; */
+    background-image: url(Coffee_Grain_545482_1920x1080\ -\ Copy.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: -47px;
+    padding: 104px;
+    overflow-x: hidden;
+}
+/* h2 {
+    color: white;
+
+} */
+caption{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background for better readability */
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+td a {
+    text-decoration: none; /* Remove underline */
+    color: black; /* Change link color if needed */
+}
+
+
+/* Add this to your new CSS file (types-styles.css) */
+
+/* Image zoom animation */
+.image-cell {
+    overflow: hidden;
+    transition: transform 0.3s ease-out; /* Apply a smooth transition to the transform property */
+}
+
+.image-container {
+    border-radius: 8px;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Hover animation: Zoom in on image cell */
+.image-cell:hover {
+    transform: scale(1.1); /* Zoom in by 10% on hover */
+}

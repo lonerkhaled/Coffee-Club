@@ -1,0 +1,75 @@
+/* brew-styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.logo {
+    position: absolute;
+    top: 100px;
+    left: 10px;
+}
+.logo a {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit; /* Inherit text color from parent */
+}
+
+.logo img {
+    width: 222px;
+    height: 119px;
+    /* top: 20px; */
+    /* margin: -8px; */
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+section {
+    background-image: url(Coffee_Grain_545482_1920x1080\ -\ Copy.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: -47px;
+    padding: 104px;
+    overflow-x: hidden;
+}
+
+article {
+    margin-bottom: 30px;
+}
+/* 
+footer {
+    background-color: #444;
+    color: white;
+    text-align: center;
+    padding: 10px;
+} */
